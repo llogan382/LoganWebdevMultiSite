@@ -1,0 +1,7 @@
+{
+    "require": {
+        "banago/phploy": "^4.8"
+    },
+    "require-dev": {
+    }
+}
