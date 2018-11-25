@@ -2,7 +2,7 @@
 
 <div id="columns" class="card-columns">
   <div class="card text-center">
-    <img class="card-img-top" src="/public_html/wp-content/themes/loganwebdev/img/southeast.png" alt="Card image cap">
+    <img class="card-img-top" src="<?php echo get_template_directory_uri();?>/img/southeast.png" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Where can we find you?</h5>
       <p class="card-text">Add a map to your new site.</p>
@@ -12,7 +12,7 @@
     </div>
   </div>
   <div class="card p-3">
-  <img class="card-img-top" src="/public_html/wp-content/themes/loganwebdev/img/adult-group.jpg" alt="Card image cap">
+  <img class="card-img-top" src="<?php echo get_template_directory_uri();?>/img/adult-group.jpg" alt="Card image cap">
       <p>Who am I missing?</p>
       <footer class="blockquote-footer">
         <small class="text-muted">
@@ -24,7 +24,7 @@
       </button>
   </div>
   <div class="card text-center">
-    <img class="card-img-top" src="/public_html/wp-content/themes/loganwebdev/img/calendar-example.png" alt="Card image cap">
+    <img class="card-img-top" src="<?php echo get_template_directory_uri();?>/img/calendar-example.png" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Add a calendar.</h5>
       <p class="card-text">Let people know about sales. And events.</p>
@@ -34,7 +34,7 @@
     </div>
   </div>
   <div class="card text-center">
-  <img class="card-img-top"  src="/public_html/wp-content/themes/loganwebdev/img/logos.png" alt="Card image">    
+  <img class="card-img-top"  src="<?php echo get_template_directory_uri();?>/img/logos.png" alt="Card image">    
     <div class="card-body">
       <h5 class="card-title">Get social. </h5>
       <p class="card-text">Be where your clients are.</p>
@@ -45,7 +45,7 @@
   </div>
   <div class="card text-center">
     <div class="card-body">
-    <img class="card-img-top" src="/public_html/wp-content/themes/loganwebdev/img/analytics.png" alt="Card image cap">
+    <img class="card-img-top" src="<?php echo get_template_directory_uri();?>/img/analytics.png" alt="Card image cap">
       <h5 class="card-title">Add analytics.</h5>
       <p class="card-text">Keep track of who comes. And who goes.</p>
       <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#analytics_modal">
@@ -55,7 +55,7 @@
   </div>
 
   <div class="card text-center">
-  <img class="card-img-top"  src="/public_html/wp-content/themes/loganwebdev/img/gravity-forms.png" alt="Card image">
+  <img class="card-img-top"  src="<?php echo get_template_directory_uri();?>/img/gravity-forms.png" alt="Card image">
     <div class="card-body">
       <h5 class="card-title">Intuitive forms. </h5>
       <p class="card-text">Interact with your clients. </p>
@@ -77,7 +77,7 @@
 
   <div class="card text-center">
     <div class="card-body">
-    <img class="card-img-top" src="/public_html/wp-content/themes/loganwebdev/img/email.png" alt="Card image cap">
+    <img class="card-img-top" src="<?php echo get_template_directory_uri();?>/img/email.png" alt="Card image cap">
       <h5 class="card-title">How do I start?</h5>
       <p class="card-text">Let's talk about you.</p>
       <a class="btn btn-primary" href="mailto:llogan382@gmail.com?subject=Need%20a%20website" role="button">What can I expect?</a>
